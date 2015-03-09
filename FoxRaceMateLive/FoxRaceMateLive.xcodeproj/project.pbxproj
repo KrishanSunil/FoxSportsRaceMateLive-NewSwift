@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DF0F791AADA56C001AA934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF0F781AADA56C001AA934 /* AppDelegate.swift */; };
+		A2DF0F7C1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2DF0F7A1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodeld */; };
+		A2DF0F7E1AADA56C001AA934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF0F7D1AADA56C001AA934 /* ViewController.swift */; };
+		A2DF0F811AADA56C001AA934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DF0F7F1AADA56C001AA934 /* Main.storyboard */; };
+		A2DF0F831AADA56C001AA934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DF0F821AADA56C001AA934 /* Images.xcassets */; };
+		A2DF0F861AADA56C001AA934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DF0F841AADA56C001AA934 /* LaunchScreen.xib */; };
+		A2DF0F921AADA56C001AA934 /* FoxRaceMateLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF0F911AADA56C001AA934 /* FoxRaceMateLiveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DF0F8C1AADA56C001AA934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DF0F6B1AADA56C001AA934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DF0F721AADA56C001AA934;
+			remoteInfo = FoxRaceMateLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2DF0F731AADA56C001AA934 /* FoxRaceMateLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxRaceMateLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DF0F771AADA56C001AA934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DF0F781AADA56C001AA934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2DF0F7B1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoxRaceMateLive.xcdatamodel; sourceTree = "<group>"; };
+		A2DF0F7D1AADA56C001AA934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2DF0F801AADA56C001AA934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2DF0F821AADA56C001AA934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2DF0F851AADA56C001AA934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2DF0F8B1AADA56C001AA934 /* FoxRaceMateLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxRaceMateLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DF0F901AADA56C001AA934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DF0F911AADA56C001AA934 /* FoxRaceMateLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxRaceMateLiveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DF0F701AADA56C001AA934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DF0F881AADA56C001AA934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DF0F6A1AADA56C001AA934 = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F751AADA56C001AA934 /* FoxRaceMateLive */,
+				A2DF0F8E1AADA56C001AA934 /* FoxRaceMateLiveTests */,
+				A2DF0F741AADA56C001AA934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DF0F741AADA56C001AA934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F731AADA56C001AA934 /* FoxRaceMateLive.app */,
+				A2DF0F8B1AADA56C001AA934 /* FoxRaceMateLiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DF0F751AADA56C001AA934 /* FoxRaceMateLive */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F781AADA56C001AA934 /* AppDelegate.swift */,
+				A2DF0F7D1AADA56C001AA934 /* ViewController.swift */,
+				A2DF0F7F1AADA56C001AA934 /* Main.storyboard */,
+				A2DF0F821AADA56C001AA934 /* Images.xcassets */,
+				A2DF0F841AADA56C001AA934 /* LaunchScreen.xib */,
+				A2DF0F7A1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodeld */,
+				A2DF0F761AADA56C001AA934 /* Supporting Files */,
+			);
+			path = FoxRaceMateLive;
+			sourceTree = "<group>";
+		};
+		A2DF0F761AADA56C001AA934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F771AADA56C001AA934 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2DF0F8E1AADA56C001AA934 /* FoxRaceMateLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F911AADA56C001AA934 /* FoxRaceMateLiveTests.swift */,
+				A2DF0F8F1AADA56C001AA934 /* Supporting Files */,
+			);
+			path = FoxRaceMateLiveTests;
+			sourceTree = "<group>";
+		};
+		A2DF0F8F1AADA56C001AA934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF0F901AADA56C001AA934 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DF0F721AADA56C001AA934 /* FoxRaceMateLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DF0F951AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLive" */;
+			buildPhases = (
+				A2DF0F6F1AADA56C001AA934 /* Sources */,
+				A2DF0F701AADA56C001AA934 /* Frameworks */,
+				A2DF0F711AADA56C001AA934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxRaceMateLive;
+			productName = FoxRaceMateLive;
+			productReference = A2DF0F731AADA56C001AA934 /* FoxRaceMateLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DF0F8A1AADA56C001AA934 /* FoxRaceMateLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DF0F981AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLiveTests" */;
+			buildPhases = (
+				A2DF0F871AADA56C001AA934 /* Sources */,
+				A2DF0F881AADA56C001AA934 /* Frameworks */,
+				A2DF0F891AADA56C001AA934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DF0F8D1AADA56C001AA934 /* PBXTargetDependency */,
+			);
+			name = FoxRaceMateLiveTests;
+			productName = FoxRaceMateLiveTests;
+			productReference = A2DF0F8B1AADA56C001AA934 /* FoxRaceMateLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DF0F6B1AADA56C001AA934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = FIC;
+				TargetAttributes = {
+					A2DF0F721AADA56C001AA934 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A2DF0F8A1AADA56C001AA934 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A2DF0F721AADA56C001AA934;
+					};
+				};
+			};
+			buildConfigurationList = A2DF0F6E1AADA56C001AA934 /* Build configuration list for PBXProject "FoxRaceMateLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DF0F6A1AADA56C001AA934;
+			productRefGroup = A2DF0F741AADA56C001AA934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DF0F721AADA56C001AA934 /* FoxRaceMateLive */,
+				A2DF0F8A1AADA56C001AA934 /* FoxRaceMateLiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DF0F711AADA56C001AA934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DF0F811AADA56C001AA934 /* Main.storyboard in Resources */,
+				A2DF0F861AADA56C001AA934 /* LaunchScreen.xib in Resources */,
+				A2DF0F831AADA56C001AA934 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DF0F891AADA56C001AA934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DF0F6F1AADA56C001AA934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DF0F7E1AADA56C001AA934 /* ViewController.swift in Sources */,
+				A2DF0F791AADA56C001AA934 /* AppDelegate.swift in Sources */,
+				A2DF0F7C1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DF0F871AADA56C001AA934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DF0F921AADA56C001AA934 /* FoxRaceMateLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DF0F8D1AADA56C001AA934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DF0F721AADA56C001AA934 /* FoxRaceMateLive */;
+			targetProxy = A2DF0F8C1AADA56C001AA934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2DF0F7F1AADA56C001AA934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DF0F801AADA56C001AA934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2DF0F841AADA56C001AA934 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DF0F851AADA56C001AA934 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DF0F931AADA56C001AA934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DF0F941AADA56C001AA934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DF0F961AADA56C001AA934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FoxRaceMateLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DF0F971AADA56C001AA934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FoxRaceMateLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DF0F991AADA56C001AA934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoxRaceMateLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxRaceMateLive.app/FoxRaceMateLive";
+			};
+			name = Debug;
+		};
+		A2DF0F9A1AADA56C001AA934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoxRaceMateLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxRaceMateLive.app/FoxRaceMateLive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DF0F6E1AADA56C001AA934 /* Build configuration list for PBXProject "FoxRaceMateLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DF0F931AADA56C001AA934 /* Debug */,
+				A2DF0F941AADA56C001AA934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DF0F951AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DF0F961AADA56C001AA934 /* Debug */,
+				A2DF0F971AADA56C001AA934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2DF0F981AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DF0F991AADA56C001AA934 /* Debug */,
+				A2DF0F9A1AADA56C001AA934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2DF0F7A1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2DF0F7B1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodel */,
+			);
+			currentVersion = A2DF0F7B1AADA56C001AA934 /* FoxRaceMateLive.xcdatamodel */;
+			path = FoxRaceMateLive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2DF0F6B1AADA56C001AA934 /* Project object */;
+}
