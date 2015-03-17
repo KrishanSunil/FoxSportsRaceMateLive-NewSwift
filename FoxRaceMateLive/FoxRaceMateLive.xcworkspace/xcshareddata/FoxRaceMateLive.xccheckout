@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>162017DA-3CE6-4C4B-BF02-C26BB1DE0130</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoxRaceMateLive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>849BBB5F73639B6BD7E11DEDE7915AC3ABC9C545</key>
+		<string>https://github.com/KrishanSunil/FoxSportsRaceMateLive-NewSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoxRaceMateLive/FoxRaceMateLive.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>849BBB5F73639B6BD7E11DEDE7915AC3ABC9C545</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KrishanSunil/FoxSportsRaceMateLive-NewSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>849BBB5F73639B6BD7E11DEDE7915AC3ABC9C545</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>849BBB5F73639B6BD7E11DEDE7915AC3ABC9C545</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FoxSportsRaceMateLive-NewSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

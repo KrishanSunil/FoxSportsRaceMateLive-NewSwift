@@ -14,6 +14,7 @@
 		A2DF0F831AADA56C001AA934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DF0F821AADA56C001AA934 /* Images.xcassets */; };
 		A2DF0F861AADA56C001AA934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DF0F841AADA56C001AA934 /* LaunchScreen.xib */; };
 		A2DF0F921AADA56C001AA934 /* FoxRaceMateLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF0F911AADA56C001AA934 /* FoxRaceMateLiveTests.swift */; };
+		EA9EDF4A21416749B8D981FF /* libPods-FoxRaceMateLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2B35F172F47BB104A11F62 /* libPods-FoxRaceMateLive.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47C4DFE1C3F7F2C3AC6BA7ED /* Pods-FoxRaceMateLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxRaceMateLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoxRaceMateLive/Pods-FoxRaceMateLive.debug.xcconfig"; sourceTree = "<group>"; };
+		7480C77A9D69C73B212EC4D0 /* Pods-FoxRaceMateLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxRaceMateLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxRaceMateLive/Pods-FoxRaceMateLive.release.xcconfig"; sourceTree = "<group>"; };
+		9E2B35F172F47BB104A11F62 /* libPods-FoxRaceMateLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoxRaceMateLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DF0F731AADA56C001AA934 /* FoxRaceMateLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxRaceMateLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DF0F771AADA56C001AA934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DF0F781AADA56C001AA934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9EDF4A21416749B8D981FF /* libPods-FoxRaceMateLive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082CD12E42A3DA6F380CD13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2B35F172F47BB104A11F62 /* libPods-FoxRaceMateLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58588D37191AC8BB115375FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47C4DFE1C3F7F2C3AC6BA7ED /* Pods-FoxRaceMateLive.debug.xcconfig */,
+				7480C77A9D69C73B212EC4D0 /* Pods-FoxRaceMateLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A2DF0F6A1AADA56C001AA934 = {
 			isa = PBXGroup;
 			children = (
 				A2DF0F751AADA56C001AA934 /* FoxRaceMateLive */,
 				A2DF0F8E1AADA56C001AA934 /* FoxRaceMateLiveTests */,
 				A2DF0F741AADA56C001AA934 /* Products */,
+				58588D37191AC8BB115375FD /* Pods */,
+				082CD12E42A3DA6F380CD13F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2DF0F951AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLive" */;
 			buildPhases = (
+				CF5EC674CB1A14859D0881E6 /* Check Pods Manifest.lock */,
 				A2DF0F6F1AADA56C001AA934 /* Sources */,
 				A2DF0F701AADA56C001AA934 /* Frameworks */,
 				A2DF0F711AADA56C001AA934 /* Resources */,
+				960EDEBA42229AD2E287FF1D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +235,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		960EDEBA42229AD2E287FF1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoxRaceMateLive/Pods-FoxRaceMateLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5EC674CB1A14859D0881E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2DF0F6F1AADA56C001AA934 /* Sources */ = {
@@ -340,6 +399,7 @@
 		};
 		A2DF0F961AADA56C001AA934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C4DFE1C3F7F2C3AC6BA7ED /* Pods-FoxRaceMateLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -352,6 +412,7 @@
 		};
 		A2DF0F971AADA56C001AA934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7480C77A9D69C73B212EC4D0 /* Pods-FoxRaceMateLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -415,6 +476,7 @@
 				A2DF0F971AADA56C001AA934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2DF0F981AADA56C001AA934 /* Build configuration list for PBXNativeTarget "FoxRaceMateLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +485,7 @@
 				A2DF0F9A1AADA56C001AA934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
